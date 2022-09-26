@@ -47,6 +47,7 @@ public class ProblemA {
 			System.out.println("Redo?(Y/N)");
 			String s = sc.next();
 			if(s.equalsIgnoreCase("Y")) {
+				System.out.flush(); 
 				//System.out.println("********************************************************\nSTART\n********************************************************");
 				for(int i =0; i<101; i++) {
 					System.out.print("*");
